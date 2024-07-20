@@ -1,1 +1,70 @@
 /* css dedicated at responsive */
+
+@media screen and (min-width: 650px) {
+    .sidebar {
+        width: 200px;
+        align-items: flex-start;
+    }
+
+    .main-section {
+        padding: 100px 10px 10px 210px;
+    }
+
+    .sidebar-logo :first-child {
+        display: none;
+    }
+
+    .sidebar-logo :last-child {
+        display: block;
+        width: 100%;
+    }
+
+    .sidebar span,
+    .m-sidebar {
+        display: block;
+    }
+
+    .sidebar-home,
+    .sidebar-search,
+    .sidebar-library {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sidebar-download {
+        border-bottom: 1px solid #7D7F84;
+        width: 140%;
+        justify-content: flex-start;
+    }
+
+    .mainbar li {
+        flex-basis: calc(100% / 3 - 10px);
+
+    }
+
+
+}
+
+@media screen and (min-width: 880px) {
+
+    .card {
+        flex-basis: calc(25% - 10px);
+    }
+
+    .mainbar li {
+        flex-basis: calc(20% - 10px);
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card {
+        flex-basis: calc(100% / 6 - 10px);
+    }
+
+    .mainbar li {
+        flex-basis: calc(100% / 6 - 10px);
+
+    }
+}
