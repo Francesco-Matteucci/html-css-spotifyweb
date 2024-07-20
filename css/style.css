@@ -352,9 +352,41 @@ li:hover,
     transform: translate(-50%, -50%);
     width: 60%;
     opacity: 0;
+    background-color: rgba(black, black, black, 0.5);
     transition: opacity 0.3s ease;
+    filter: brightness(6);
+}
+
+.content:first-child:hover {
+    opacity: 0.5;
 }
 
 .content:hover .play-hover {
     opacity: 1;
+}
+
+
+/* prova */
+
+.artist img:first-child {
+    --m:
+        radial-gradient(circle farthest-side at right, #000 99%, #0000) 0 100%/46% 92% no-repeat,
+        radial-gradient(circle farthest-side at left, #000 99%, #0000) 100% 0/46% 92% no-repeat;
+    -webkit-mask: var(--m);
+    mask: var(--m);
+    filter: grayscale(.5);
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.artist img:first-child:hover {
+    -webkit-mask-position: 7.5% 50%, 92.5% 50%;
+    mask-position: 7.5% 50%, 92.5% 50%;
+    filter: grayscale(0);
+}
+
+.artist .play-hover {
+    top: 70%;
+    left: 83%;
+    width: 30%;
 }
