@@ -12,6 +12,13 @@
     --space-extraxl: 200px;
     /* colors */
     --main-font: #7D7F84;
-
-
+    --sec-font: #fff;
+    --btn-color: #A3A3A3;
+    --main-bgcolor: #141922;
+    --sidebar-color: #000;
+    --footer-bgcolor: #282828;
+    /* effects */
+    --m:
+        radial-gradient(circle farthest-side at right, #000 99%, #0000) 0 100%/46% 92% no-repeat,
+        radial-gradient(circle farthest-side at left, #000 99%, #0000) 100% 0/46% 92% no-repeat;
 }

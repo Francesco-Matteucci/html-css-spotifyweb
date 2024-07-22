@@ -3,12 +3,13 @@
 /* SIDEBAR OPEN VERSION */
 @media screen and (min-width: 650px) {
     .sidebar {
-        width: 200px;
+        min-width: var(--space-extraxl);
         align-items: flex-start;
+        flex-shrink: 1;
     }
 
     .main-section {
-        padding: 100px 10px 10px 210px;
+        padding: 0px 10px 10px 10px;
     }
 
     .sidebar-logo :first-child {
