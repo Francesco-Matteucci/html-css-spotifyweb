@@ -297,10 +297,26 @@ footer a {
 }
 
 .progress {
+    position: relative;
     width: 25%;
     height: 100%;
     background-color: #ccc;
     border-radius: 4px;
+}
+
+.vol {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: forestgreen;
+    display: none;
+}
+
+.progress-vol:hover .vol {
+    display: block;
 }
 
 .volume * {
