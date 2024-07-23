@@ -41,7 +41,7 @@
     }
 
     .mainbar li {
-        flex-basis: calc(100% / 3 - 10px);
+        flex-basis: calc(100% / 3);
     }
 }
 
@@ -49,11 +49,11 @@
 @media screen and (min-width: 900px) {
 
     .card {
-        flex-basis: calc(25% - 10px);
+        flex-basis: 25%;
     }
 
     .mainbar li {
-        flex-basis: calc(20% - 10px);
+        flex-basis: 20%;
 
     }
 }
@@ -61,11 +61,11 @@
 /* DESKTOP VERSION */
 @media screen and (min-width: 1400px) {
     .card {
-        flex-basis: calc(100% / 6 - 10px);
+        flex-basis: calc(100% / 6);
     }
 
     .mainbar li {
-        flex-basis: calc(100% / 6 - 10px);
+        flex-basis: calc(100% / 6);
 
     }
 }
